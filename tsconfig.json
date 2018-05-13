@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es7",
+      "dom"
+    ]
+  },
+  "filesGlob": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "ignore": [
+    "android",
+    "build",
+    "ios",
+    "node_modules"
+  ],
+  "types": [
+    "jest"
+  ]
+}
